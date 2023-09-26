@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: darkblue;
+    font-size: x-large;
+    padding-top: 10px;
+
+}
+
+.link a{
+  text-decoration: none;
+  color: pink;
+}
+
+.topStudent{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.topStudent button{
+    border-radius: 15px;
+    width: 120px;
+    background-color:aliceblue;
+    cursor: pointer;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+}
+
+table {
+    width: 850px;
+    height: 350px;
+    font-size: larger;
+    background-color: rgb(196, 239, 239);
+    border-radius: 15px;
+}
+
+th,tr,td {
+    border-bottom: 1px solid black;
+
+}
+
+.editStuTop{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.editStudown{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.editStudentbtn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.editStudentbtn button{
+    width: 120px;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width:500px){
+    .editStuTop{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .editStudown{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
